@@ -1,0 +1,16 @@
+.card {
+  border: 1px solid #ddd;
+  background: #cdcdcd;
+  h2,
+  h5 {
+    padding: 2px 5px;
+    margin: 2px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  &-body {
+    background: #fff;
+    padding: 5px;
+  }
+}
