@@ -1,0 +1,15 @@
+.example {
+  border: 1px solid #ff556682;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  &-header {
+    background-color: #ff556682;
+    color: #fff;
+    font-size: 18px;
+    padding: 3px;
+  }
+  &-body {
+    padding: 3px;
+  }
+}

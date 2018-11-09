@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardComponent implements OnInit {
   @Input() title: string = 'Sample Title';
-  @Input() footer: string = 'Sample footer';
+  @Input() footer: string = '---';
   constructor() {}
 
   ngOnInit() {}

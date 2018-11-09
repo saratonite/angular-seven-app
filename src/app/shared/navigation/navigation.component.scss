@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 1.5em;
+  background-color: #ff2d66;
+  a {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fdfdfd;
+    font-weight: 400;
+  }
+}
