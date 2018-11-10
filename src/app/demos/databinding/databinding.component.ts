@@ -3,13 +3,32 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-databinding',
   templateUrl: './databinding.component.html',
-  styleUrls: ['./databinding.component.scss']
+  styleUrls: ['./databinding.component.scss'],
 })
 export class DatabindingComponent implements OnInit {
+  title: string = 'Hello';
 
-  constructor() { }
+  val: number = 1;
 
-  ngOnInit() {
+  enableButton1: boolean = true;
+
+  selectedColor: string = 'blue';
+
+  isSelected: boolean = true;
+
+  user: object = {
+    email: 'someone@someone.xyz',
+  };
+
+  constructor() {}
+
+  ngOnInit() {}
+
+  increment() {
+    this.val++;
   }
 
+  resetEmail() {
+    this.user.email = 'someone@someone.xyz';
+  }
 }

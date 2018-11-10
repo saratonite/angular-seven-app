@@ -1,13 +1,17 @@
 .card {
   border: 1px solid #ddd;
   background: #cdcdcd;
-  h2,
-  h5 {
+
+  &-header {
     padding: 2px 5px;
     margin: 2px;
-  }
-  h2 {
-    font-size: 20px;
+    display: flex;
+    &-title {
+      font-size: 1.5em;
+    }
+    &-link {
+      float: right;
+    }
   }
   &-body {
     background: #fff;

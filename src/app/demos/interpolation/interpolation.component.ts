@@ -14,6 +14,9 @@ export class InterpolationComponent implements OnInit {
   person: Object = {
     firstName: 'Sarath',
     lastName: 'TK',
+    location: {
+      name: 'Kerala',
+    },
   };
 
   constructor() {}

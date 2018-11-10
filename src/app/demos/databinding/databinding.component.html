@@ -1,1 +1,24 @@
-<div>Data Binding !!!</div>
+<!-- https://alligator.io/angular/data-binding-angular/ -->
+<div>
+  <app-example title="One way data binding - data source to view">
+    <p>Binding Variable : {{ title }}</p>
+    <button [disabled]="enableButton1">Disabled button Button 1</button>
+  </app-example>
+
+  <app-example title="Onw way binding - view to data source">
+    <button (click)="increment()">Plus</button> {{ val }}</app-example
+  >
+
+  <app-example title="One way binding - property binding">
+    <input type="number" [value]="val" />
+
+    <div [style.background-color]="selectedColor">Style binding</div>
+    <div [class.selected]="isSelected">Class binding</div>
+  </app-example>
+
+  <app-example>
+    <input type="email" [(ngModel)]="user.email" />
+    <p>User Email : {{ user.email }}</p>
+    <button (click)="resetEmail()">Reset Email</button>
+  </app-example>
+</div>

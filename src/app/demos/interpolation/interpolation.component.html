@@ -10,4 +10,8 @@
   <app-example title="Ternary operation">{{
     gender === 'm' ? 'Male' : 'Female'
   }}</app-example>
+
+  <app-example title="The safe navigation operator - ?">
+    {{ person.location.name }}, {{ person.location?.city }}
+  </app-example>
 </div>

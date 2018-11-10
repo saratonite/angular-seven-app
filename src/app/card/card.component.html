@@ -1,5 +1,10 @@
 <div class="card">
-  <h2>{{ title }}</h2>
+  <div class="card-header">
+    <h2 class="card-header-title">{{ title }}</h2>
+    <div class="card-header-link" *ngIf="link">
+      <a [href]="link" target="_blank">Link</a>
+    </div>
+  </div>
   <div class="card-body"><ng-content></ng-content></div>
-  <h5>{{ footer }}</h5>
+  <h5 *ngIf="footer">{{ footer }}</h5>
 </div>
