@@ -5,6 +5,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { DemosComponent } from './pages/demos/demos.component';
 import { InterpolationComponent } from './demos/interpolation/interpolation.component';
 import { DatabindingComponent } from './demos/databinding/databinding.component';
+import { DirectivesComponent } from './demos/directives/directives.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'demos', component: DemosComponent },
   { path: 'demos/inerpolation', component: InterpolationComponent },
   { path: 'demos/databinding', component: DatabindingComponent },
+  { path: 'demos/directives', component: DirectivesComponent },
 ];
 
 @NgModule({

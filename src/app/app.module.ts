@@ -12,6 +12,7 @@ import { InterpolationComponent } from './demos/interpolation/interpolation.comp
 import { DemosComponent } from './pages/demos/demos.component';
 import { ExampleComponent } from './example/example.component';
 import { DatabindingComponent } from './demos/databinding/databinding.component';
+import { DirectivesComponent } from './demos/directives/directives.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { DatabindingComponent } from './demos/databinding/databinding.component'
     DemosComponent,
     ExampleComponent,
     DatabindingComponent,
+    DirectivesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
