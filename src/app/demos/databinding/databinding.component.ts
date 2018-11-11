@@ -16,7 +16,7 @@ export class DatabindingComponent implements OnInit {
 
   isSelected: boolean = true;
 
-  user: object = {
+  user: any = {
     email: 'someone@someone.xyz',
   };
 

@@ -1,5 +1,5 @@
 <!-- https://alligator.io/angular/data-binding-angular/ -->
-<div>
+<app-card title="Data Binding">
   <app-example title="One way data binding - data source to view">
     <p>Binding Variable : {{ title }}</p>
     <button [disabled]="enableButton1">Disabled button Button 1</button>
@@ -16,9 +16,9 @@
     <div [class.selected]="isSelected">Class binding</div>
   </app-example>
 
-  <app-example>
+  <app-example title="Two-way binding">
     <input type="email" [(ngModel)]="user.email" />
     <p>User Email : {{ user.email }}</p>
     <button (click)="resetEmail()">Reset Email</button>
   </app-example>
-</div>
+</app-card>
